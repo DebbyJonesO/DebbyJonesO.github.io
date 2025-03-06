@@ -1,1 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Invoice</title>
+  <meta name="viewport" content="width=1300, initial-scale=1" />
+  <style>
+  	body{
+  background: #ffffff;
+  width: 100%;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#main-container{
+  max-width: 1080px;
+  margin: 30px auto;
+  border: 1px solid #000;
+  padding: 100px 16px;
+}
+header{
+  text-align: center;
+  margin-bottom: 16px;
+}
+#logo{
+  width: 90px;
+}
+#menu-container{
+  border: 1px solid #999;
+  border-left: 0;
+  border-right: 0;
+}
+#menu-container ul{
+  margin: 0;
+  list-style: none;
+}
+
+#menu-container ul li{
+  display: inline-block;
+  padding: 5px 16px;
+  font-weight: bold;
+}
+
+section{
+  margin-top: 30px;
+}
+#section-2 a{
+  text-decoration: none;
+}
+
+table{
+  width: 100%;
+  border: 1px solid #999;
+}
+table td{
+  width: 50%;
+  padding: 3px 2px;
+}
+table tr:nth-child(odd){
+  background: rgba(0,0,0,0.17);
+  color: #000;
+  font-weight: bold;
+}
+#img-1{
+  height: 150px;
+}
+#img-2{
+  width: 100%;
+}
+img#signature{
+  height: 109px;
+}
+#section-3 tr td{
+  width: 20%;
+}
+#section-3 tr td:nth-child(2){
+  width: 40%
+}
+#section-4 tr:nth-child(odd){
+  background: none;
+}
+#section-4 td:nth-child(1){
+  background: rgba(0,0,0,0.17);
+  color: #000;
+  font-weight: bold;
+}
+#section-4 td:nth-child(2){
+  text-align: right;
+  font-weight: normal;
+}
+#order-note{
+  padding-left: 20px;
+}
+#help-container{
+  padding-left: 20px;
+  line-height: 15px;
+}
+#no-decor{
+  text-decoration: none;
+}
+#blue-shape{
+  border-bottom: 20px solid #000075;
+}
+  </style>
+</head>
+<body>
+  <div id="main-container">  
+    <header>
+      <div>
+        <img src="invoice-logo.png" id="logo">  
+      </div>
+      <div id="menu-container">
+        <ul>
+          <li>Foodstuffs</li>
+          <li>Oil & Spices</li>
+          <li>Fruits</li>
+          <li>Packaged Foods</li>
+        </ul>
+      </div>      
+      
+    </header>    
+  <section id="section-1">
+       <p>Hi, Faith</p>
+      Thank you for shopping on Market Centa! Your order 353143285 has been successfully confirmed.
+      <br>
+    It will be packaged and shipped as soon as possible. Once the item(s) is out of delivery or available for pick-up you will receive a notification from us.
+    <br>
+    Thank you for shopping on Market Centa
+    <br>
+    
+    <p>
+      <strong>Please note:</strong>
+    </p> 
+    <div id="order-note">
+      • If you ordered for multiple items, they may be available at the pick up station on different days. This is because they are sold by different sellers
+    <br>
+on our platform and we want to make each item available to you as soon as possible after receiving it.
+    </div>
+  </section>
+ <section id="section-2">
+    <table>
+      <tr>
+        <td>Estimated delivery date(s) </td>
+        <td>Delivery Method</td>
+      </tr>
+      <tr>
+        <td>
+     Check our <a href="#">delivery information page</a>
+        </td>
+        <td>
+          Collect from our Pickup
+        </td>
+      </tr>
+      <tr>
+        <td>
+Recepient Details
+        </td>
+        <td>
+Delivery Address
+        </td>
+      </tr>
+      <tr>
+        <td>
+Faith Oludare
+        </td>
+        <td>
+ljebu Ode Pickup Station - Peter's Place, Directly Opposite lbadan Garage
+Motor Park, ljebu-Ode, Ogun State
+        </td>        
+        </tr>
+    </table>      
+    </section>
+  <section id="section-3">
+      <p>
+        <strong>
+        You ordered for:
+      </strong>
+      </p>
+      <table>
+        <tr>
+       <td>
+         </td>
+          <td>ITEM </td>
+          <td>QUALITY</td>
+          <td>PRICE</td>
+        </tr>
+        <tr>
+          <td>
+<img src="invoice-product.png" id="img-1">  
+          </td>
+          <td>
+    Cocoa Butter By Palmers Body Lotion
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+           &#8358; 4000
+          </td>
+        </tr>
+      </table>
+    </section>
+    
+    <section id="section-4">
+      <table>
+        <tr>
+          <td>
+SHIPPING COST
+          </td>
+          <td>&#8358; 510</td>
+        </tr>
+        <tr>
+          <td>
+SHIPPING DISCOUNT
+          </td>
+          <td>
+            &#8358; 0
+          </td>
+        </tr>
+          <tr>
+            <td>
+DISCOUNT
+            </td>
+            <td>
+              &#8358; 0
+            </td>
+          </tr>
+        <tr>
+          <td>
+TOTAL
+          </td>
+          <td>
+            &#8358; 4510
+          </td>
+        </tr>
+        <tr>
+          <td>
+PAYMENT METHOD
+          </td>
+          <td>
+           Prepaid
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="section-5">
+      <p>
+       If you would like to know more, please visit our <a href="#">Help Center</a>
+    </p>
+      <p>
+Please don't forget to thank your Jumia delivery agent, who is keeping you safe at home! You can also encourage them through our <a href="#">Facebook Page</a>
+using the #jumiaheroes flag. Stay safe & stay healthy.      
+      </p>
+    </section>
+    <section id="section-6">
+      
+      
+    </section>
+    <img src="invoice-map.png" id="img-2">  
+
+    
+    <section id="section-7">
+      
+      <p>
+Happy Shopping!
+      </p>
+      <p>
+Warm Regards,
+      </p>
+      <p>
+        <img src="invoice-signature.png" id="signature">  
+
+      </p>
+      <p>
+Market Centra Team
+      </p>
+      
+      <p><strong>
+        Got any questions?
+      </strong>
+      </p>
+      <div id="help-container">
+        <p>
+   • Have a look at our <a href="#" id="no-decor">Help Center</a> page
+      </p>
+      <p> • Learn how to use Jumiapay and withdraw from your Jumiapay account. Click <a href="#">here</a>
+      </div>
+     </section>
+   
+      <div id="blue-shape"></div>
+  </div>
+</body>
+</html>
 
